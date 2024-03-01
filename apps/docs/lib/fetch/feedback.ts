@@ -13,7 +13,7 @@ type SendFeedbackVariables = {
 export async function sendFeedback({ message, pathname, title, isHelpful }: SendFeedbackVariables) {
   const { data, error } = await post('/platform/feedback/docs', {
     body: {
-      page: pathname,
+      page: pathname ?? '',
       isHelpful,
       title,
       feedback: message,

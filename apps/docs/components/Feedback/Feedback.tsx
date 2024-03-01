@@ -88,7 +88,7 @@ function Feedback() {
   async function sendFeedbackVote(response: Response) {
     const { error } = await supabase.from('feedback').insert({
       vote: response,
-      page: pathname,
+      page: pathname ?? '',
       metadata: {
         query: getSanitizedTabParams(),
       },
@@ -201,7 +201,7 @@ function Feedback() {
       </div>
       <FeedbackModal
         visible={modalOpen}
-        page={pathname}
+        page={pathname ?? ''}
         onCancel={() => {
           setModalOpen(false)
           refocusButton()
