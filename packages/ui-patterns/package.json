@@ -18,10 +18,12 @@
     "react-tooltip": "*",
     "reactflow": "*",
     "tsconfig": "*",
-    "valtio": "*",
-    "ui": "*"
+    "ui": "*",
+    "valtio": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@testing-library/react": "^15.0.1"
+  },
   "peerDependencies": {
     "next": "*",
     "react": "*",
