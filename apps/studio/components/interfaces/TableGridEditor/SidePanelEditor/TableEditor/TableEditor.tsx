@@ -315,7 +315,7 @@ const TableEditor = ({
             <p className="mt-4">
               <Button asChild type="default" icon={<IconBookOpen strokeWidth={1.5} />}>
                 <Link
-                  href="https://supabase.com/docs/guides/auth/row-level-security"
+                  href="https://supabase.com/docs/guides/database/postgres/row-level-security"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -338,7 +338,7 @@ const TableEditor = ({
             <p className="mt-4">
               <Button asChild type="default" icon={<IconBookOpen strokeWidth={1.5} />}>
                 <Link
-                  href="https://supabase.com/docs/guides/auth/row-level-security"
+                  href="https://supabase.com/docs/guides/database/postgres/row-level-security"
                   target="_blank"
                   rel="noreferrer"
                 >
