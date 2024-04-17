@@ -2453,4 +2453,9 @@ module.exports = [
     source: '/docs/guides/auth/passwordless-login/auth-email-otp',
     destination: '/docs/guides/auth/auth-email-passwordless',
   },
+  {
+    permanent: true,
+    source: '/docs/guides/auth/native-mobile-login',
+    destination: '/docs/guides/auth/social-login',
+  },
 ]
