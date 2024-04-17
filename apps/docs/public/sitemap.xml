@@ -1021,7 +1021,7 @@
   </url>
 
   <url>
-    <loc>https://supabase.com/docs/guides/auth/concepts/redirect-urls</loc>
+    <loc>https://supabase.com/docs/guides/auth/redirect-urls</loc>
     <changefreq>weekly</changefreq>
     <changefreq>0.5</changefreq>
   </url>
